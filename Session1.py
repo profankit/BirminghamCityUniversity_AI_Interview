@@ -24,7 +24,7 @@ QUESTIONS = [
     "Give details like the name and address of the bank that you will be using to pay your tution fee? ",
     "What are your hobbies? Do you like to join and clubs in the UK?",
     "Can you describe the problem that you faced while narrowing down and making your final decision?",
-    "Describe you ideal day in your life currently.",
+    "Describe your ideal day in your life currently.",
     "How will you be a responsible student and be a team member at your university?"
 ]
 
