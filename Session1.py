@@ -15,7 +15,17 @@ except FileNotFoundError:
     ADMIN_PASSWORD = "Delta"
 
 QUESTIONS = [
-    "Who is the validating university that will actually award your MBA degree upon completion?", "Regent College London has multiple campuses; which specific campus will your classes be held at?", "Why did you choose to study at a private college like Regent instead of a large public university?", "Can you explain the 'Thinking into Character' (TiC) module and why it is unique to Regent College?", "What is the exact duration of the MBA Business Management course at RCL?", "How does the tuition fee at Regent College London compare to other universities you researched?", "Which specific module covers strategic decision-making in your course?", "What are the names of two other colleges in London you considered before choosing Regent?", "How will the smaller class sizes at Regent College benefit your specific learning style?", "What is the name of the Principal or the Head of School at Regent College London?", "Does your course include an 'Academic Skills' module to help you adjust to UK grading?", "How is the MBA at Regent College assessed—is there a final written exam or a capstone project?", "What specific digital learning platforms (like VLE or Moodle) does Regent College use?", "Can you name three distinct learning outcomes listed in the course specification?", "How many credits is the final dissertation or consultancy project worth?", "What are the library facilities like at your specific campus location?", "Did you apply directly to Regent College or through a recruitment partner?", "What is the student-to-teacher ratio at Regent compared to a standard UK university?", "How does the 'Business Research Methods' module prepare you for your final project?", "Are there any specific electives available in this MBA program, or is the curriculum fixed?", "Who is the awarding body for your degree, and is it recognized in your home country?", "What specific academic support services does RCL offer for international students?", "How many days a week are you required to attend classes according to your timetable?", "Why do you think the MBA curriculum at Regent is suitable for the current job market?", "What is the 'Student Voice' initiative at Regent College and would you participate in it?"
+    "1. Open your passport to the page with your photo 2. Hold the passport in front of your face for 3 seconds and then move the passport next to your face (no more than 20 cm away from your face) 3. Read the following words out loud: Hocus-pocus, Jibber-jabber, Babbling. This helps us to confirm your ID.",
+    "What problems do you think you might have if you work and study at the same time in the UK?",
+    "Define your plans for keeping informed for any changes in your job area after you graduate?",
+    "What steps have you taken to manage your living costs in the UK, such as a researching housing, travel and groceries?",
+    "Do you wish to start a business? If yes, them please explain. Explain also if you have other plans?",
+    "Do you have any dependents that will come along you to the UK?",
+    "Give details like the name and address of the bank that you will be using to pay your tution fee? ",
+    "What are your hobbies? Do you like to join and clubs in the UK?",
+    "Can you describe the problem that you faced while narrowing down and making your final decision?",
+    "Describe you ideal day in your life currently.",
+    "How will you be a responsible student and be a team member at your university?"
 ]
 
 # --- PAGE SETUP ---
@@ -27,7 +37,7 @@ if "authenticated" not in st.session_state:
 
 if not st.session_state.authenticated:
     st.write("Welcome to")
-    st.title("Regent College Longon AI Based Interview System")
+    st.title("Birmingham City University AI Based Interview System")
     st.title("🔒 Restricted Access")
     st.write("Please enter the password to begin the interview.")
     
